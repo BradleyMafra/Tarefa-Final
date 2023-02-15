@@ -34,20 +34,20 @@ header{
 }
 .sidebar{
     position: fixed;
-    width: 25px;
+    width: 40px;
     height: 100%;
     top: 20px;
     left: 0%;
-    background-color: rgb(224, 224, 225);
+    background-color: rgb(224, 225, 224);
 }
 ::-webkit-input-placeholder{
     color: rgb(119, 0, 255);
 }
 
-.sidebar-dois a{
+.sidebar-dois {
     position: fixed;
-    left: 30px;
-    width: 0px;
+    left: 100px;
+    width: 100px;
     top: 20px;
     color: rgb(150, 150, 150);
 }

@@ -7,7 +7,7 @@ header{
     background: rgb(119, 1, 255);
     padding: 5px;
     width: 100%;
-    height:10px;
+    height:30px;
 }
 .btn-header a {
     width: 100%;
@@ -18,10 +18,7 @@ header{
 
 /* Campo de Pesquisa */
 .pesquisa-box{
-    position: absolute;
-    right: 20%;
-    top: 10%;
-    height: 80%;
+    margin-left: 980px;
 }
 .search-txt{
     border: none;
@@ -32,22 +29,50 @@ header{
     display: flex;
     align-items: center;
 }
-.sidebar{
+.bck-deireita{
     position: fixed;
     width: 40px;
     height: 100%;
-    top: 20px;
+    top: 40px;
     left: 0%;
-    background-color: rgb(224, 225, 224);
+    /* background-color: rgb(196, 196, 196); */
+}
+.emb-notificacao{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.txt-notify{
+    color: rgb(17, 17, 17);
+    font-size:x-small;
+    font-family:sans-serif;
+}
+.emb-chat{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.txt-chat{
+    color: rgb(17, 17, 17);
+    font-size:x-small;
+    font-family:sans-serif;
+}
+.emb-time{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.txt-time{
+    color: rgb(17, 17, 17);
+    font-size:x-small;
+    font-family:sans-serif;
+}
+.emb-tarefa{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.txt-tarefa{
+    color: rgb(17, 17, 17);
+    font-size:x-small;
+    font-family:sans-serif;
 }
 ::-webkit-input-placeholder{
     color: rgb(119, 0, 255);
-}
-
-.sidebar-dois {
-    position: fixed;
-    left: 100px;
-    width: 100px;
-    top: 20px;
-    color: rgb(150, 150, 150);
 }
